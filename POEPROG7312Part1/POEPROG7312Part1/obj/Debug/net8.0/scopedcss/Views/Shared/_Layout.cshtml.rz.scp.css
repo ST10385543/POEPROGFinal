@@ -1,0 +1,71 @@
+/* Navbar brand adjustments */
+a.navbar-brand[b-xx68i1jc6k] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Link colors */
+a[b-xx68i1jc6k] {
+    color: #0077cc;
+}
+
+/* Primary button style */
+.btn-primary[b-xx68i1jc6k] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Active nav pills */
+.nav-pills .nav-link.active[b-xx68i1jc6k],
+.nav-pills .show > .nav-link[b-xx68i1jc6k] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Borders */
+.border-top[b-xx68i1jc6k] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-xx68i1jc6k] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Box shadow utility */
+.box-shadow[b-xx68i1jc6k] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Accept policy button */
+button.accept-policy[b-xx68i1jc6k] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Layout for sticky footer */
+html[b-xx68i1jc6k], body[b-xx68i1jc6k] {
+    height: 100%;
+    margin: 0;
+}
+
+body[b-xx68i1jc6k] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main[b-xx68i1jc6k] {
+    flex: 1; /* Push footer down */
+}
+
+/* Footer style */
+.footer[b-xx68i1jc6k] {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e5e5e5;
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+}

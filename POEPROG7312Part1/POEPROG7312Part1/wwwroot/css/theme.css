@@ -1,0 +1,24 @@
+﻿body {
+    background: url('/images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.navbar {
+    background-color: rgba(13, 110, 253, 0.8) !important;
+}
+
+    .navbar .nav-link,
+    .navbar .navbar-brand {
+        color: #ffffff !important;
+    }
+
+        .navbar .nav-link:hover {
+            color: #cce5ff !important;
+        }

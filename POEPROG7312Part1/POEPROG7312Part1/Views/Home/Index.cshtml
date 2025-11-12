@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Main Menu";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-primary">Main Menu</h2>
+
+    <div class="row g-3">
+
+        <!-- Report Issues -->
+        <div class="col-md-4">
+            <a asp-controller="Issue" asp-action="ReportIssue" class="text-decoration-none">
+                <div class="card text-center h-100 shadow-sm hover-shadow">
+                    <div class="card-body">
+                        <i class="bi bi-exclamation-circle display-4 text-danger mb-3"></i>
+                        <h5 class="card-title">Report Issues</h5>
+                        <p class="card-text">Report community issues such as sanitation, roads, or utilities.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Local Events & Announcements -->
+        <div class="col-md-4">
+            <a asp-controller="Events" asp-action="Index" class="text-decoration-none">
+                <div class="card text-center h-100 shadow-sm hover-shadow">
+                    <div class="card-body">
+                        <i class="bi bi-calendar-event display-4 text-success mb-3"></i>
+                        <h5 class="card-title">Local Events & Announcements</h5>
+                        <p class="card-text">Stay updated with upcoming events and announcements in your area.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Service Request Status -->
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-info-circle display-4 text-secondary mb-3"></i>
+                    <h5 class="card-title">Service Request Status</h5>
+                    <p class="card-text">Check the status of your submitted service requests.</p>
+                    <button class="btn btn-secondary" disabled>Coming Soon</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .hover-shadow:hover {
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+        transition: 0.3s;
+    }
+</style>

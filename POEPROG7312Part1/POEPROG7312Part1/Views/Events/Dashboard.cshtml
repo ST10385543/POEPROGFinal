@@ -1,0 +1,85 @@
+﻿@model POEPROG7312Part1.ViewModels.EventViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2 class="mb-4">Upcoming Events</h2>
+<div class="row mb-5">
+    @foreach (var evt in Model.Events)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm bg-white border-0">
+                @if (!string.IsNullOrEmpty(evt.ImageUrl))
+                {
+                    <img class="card-img-top" src="@evt.ImageUrl" alt="@evt.Title" style="height:200px; object-fit:cover;" />
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@evt.Title</h5>
+                    <p class="card-text">@evt.Description</p>
+                    <p class="card-text"><small class="text-muted">@evt.Date.ToString("dd MMM yyyy")</small></p>
+                    <a class="btn btn-primary"
+                       asp-action="ViewEvent"
+                       asp-route-eventId="@evt.Id"
+                       asp-route-returnUrl="@Url.Action("Dashboard", "Events")">
+                        View Event
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<hr />
+
+<h3 class="mb-3">Recent Events</h3>
+<div class="row mb-5">
+    @foreach (var evt in Model.RecentEvents)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 border-info shadow-sm bg-white">
+                <div class="card-body">
+                    <h5 class="card-title">@evt.Title</h5>
+                    <p class="card-text">@evt.Description</p>
+                    <p class="card-text"><small class="text-muted">@evt.Date.ToString("dd MMM yyyy")</small></p>
+                    <a class="btn btn-primary"
+                       asp-action="ViewEvent"
+                       asp-route-eventId="@evt.Id"
+                       asp-route-returnUrl="@Url.Action("Dashboard", "Events")">
+                        View Event
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<hr />
+
+<h3 class="mb-3" style="color:white;">Recommended Events</h3>
+<div class="row mb-5">
+    @if (Model.RecommendedEvents != null && Model.RecommendedEvents.Any())
+    {
+        @foreach (var evt in Model.RecommendedEvents)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 border-success shadow-sm bg-white">
+                    <div class="card-body">
+                        <h5 class="card-title">@evt.Title</h5>
+                        <p class="card-text">@evt.Description</p>
+                        <p class="card-text"><small class="text-muted">@evt.Date.ToString("dd MMM yyyy")</small></p>
+                        <a class="btn btn-primary"
+                           asp-action="ViewEvent"
+                           asp-route-eventId="@evt.Id"
+                           asp-route-returnUrl="@Url.Action("Dashboard", "Events")">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p class="text-muted">No recommended events yet — view some events to get personalized recommendations.</p>
+    }
+</div>

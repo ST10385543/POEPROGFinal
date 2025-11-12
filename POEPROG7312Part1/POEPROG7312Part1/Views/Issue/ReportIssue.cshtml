@@ -1,0 +1,134 @@
+﻿@model POEPROG7312Part1.Models.Issue
+
+@{
+    ViewData["Title"] = "Report an Issue";
+}
+
+<style>
+    body {
+        color: #000; /* default text black */
+    }
+
+    .container h2 {
+        color: #0d6efd; /* keep the heading blue */
+    }
+
+    /* Make form labels and inputs dark */
+    .form-label,
+    .form-control,
+    .form-select,
+    .form-text,
+    #fileName {
+        color: #000 !important;
+    }
+
+    /* Optional: make placeholder text slightly gray */
+    ::placeholder {
+        color: #666;
+    }
+
+    /* Keep progress bar text readable */
+    .progress-bar {
+        color: #000 !important;
+    }
+</style>
+
+
+    <form asp-action="ReportIssue" asp-controller="Issue" method="post" enctype="multipart/form-data" id="reportForm" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label asp-for="Location" class="form-label">Location</label>
+            <input asp-for="Location" class="form-control" placeholder="Enter location" required />
+            <div class="invalid-feedback">Please provide a location.</div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Category" class="form-label">Category</label>
+            <select asp-for="Category" class="form-select" required>
+                <option value="">Select category</option>
+                <option>Sanitation</option>
+                <option>Roads</option>
+                <option>Utilities</option>
+            </select>
+            <div class="invalid-feedback">Please select a category.</div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <textarea asp-for="Description" class="form-control" rows="5" placeholder="Describe the issue..." required></textarea>
+            <div class="invalid-feedback">Please describe the issue.</div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Attachment</label>
+            <input type="file" name="file" id="fileInput" class="form-control" />
+            <small class="form-text text-muted">Optional. Upload an image or document related to the issue.</small>
+            <div id="fileName" class="mt-1 text-secondary"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div id="engageMessage" class="mt-4 alert alert-info">
+        Thank you for improving our community!
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress mt-3" style="height: 25px; display:none;" id="progressContainer">
+        <div id="uploadProgress" class="progress-bar progress-bar-striped progress-bar-animated"
+             role="progressbar" style="width: 0%">
+            0%
+        </div>
+    </div>
+</div>
+
+<script>
+    // Show selected file name
+    const fileInput = document.getElementById("fileInput");
+    const fileNameDiv = document.getElementById("fileName");
+    fileInput.addEventListener("change", function () {
+        if (fileInput.files.length > 0) {
+            fileNameDiv.textContent = "Selected file: " + fileInput.files[0].name;
+        } else {
+            fileNameDiv.textContent = "";
+        }
+    });
+
+    // Form 
+    document.getElementById("reportForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", form.action, true);
+
+        if (fileInput.files.length > 0) {
+            document.getElementById("progressContainer").style.display = "block";
+        }
+
+        xhr.upload.addEventListener("progress", function (e) {
+            if (e.lengthComputable) {
+                const percentComplete = Math.round((e.loaded / e.total) * 100);
+                const progressBar = document.getElementById("uploadProgress");
+                progressBar.style.width = percentComplete + "%";
+                progressBar.textContent = percentComplete + "%";
+            }
+        });
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                alert("Issue reported successfully!");
+                form.reset();
+                document.getElementById("progressContainer").style.display = "none";
+                document.getElementById("uploadProgress").style.width = "0%";
+                document.getElementById("uploadProgress").textContent = "0%";
+                fileNameDiv.textContent = "";
+            } else {
+                alert("Error reporting issue. Please try again.");
+            }
+        };
+
+        xhr.send(formData);
+    });
+</script>

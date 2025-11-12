@@ -1,0 +1,39 @@
+﻿@model IEnumerable<POEPROG7312Part1.Models.Event>
+
+@{
+    ViewData["Title"] = "Announcements";
+}
+
+<h2 class="mb-4">Announcements</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No announcements available at the moment.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var a in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    @if (!string.IsNullOrEmpty(a.ImagePath))
+                    {
+                        <img src="@a.ImagePath" class="card-img-top" alt="Announcement Image" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@a.Title</h5>
+                        <p class="card-text">@a.Description</p>
+                        <p class="text-muted">@a.Date.ToString("yyyy-MM-dd")</p>
+                        <a asp-action="Details" asp-route-id="@a.Id" class="btn btn-primary btn-sm">View</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

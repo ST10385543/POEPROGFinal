@@ -1,0 +1,919 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\binarysearchtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\bstnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\bstnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\categoryset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\categoryset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\workshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\workshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\eventpriorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\eventpriorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\eventdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\eventdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\datastructures\\searchstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\datastructures\\searchstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\services\\servicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\services\\servicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\servicerequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\servicerequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\issue\\allissues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\issue\\allissues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\issue\\reportissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\issue\\reportissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\announcements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\announcements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\announcements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\announcements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\announcements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\announcements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\events\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\events\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\servicerequest\\graphview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\servicerequest\\graphview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\servicerequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\servicerequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\events\\eventdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\events\\eventdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\usersearchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\usersearchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\services\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\services\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\services\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\services\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\services\\usercacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\services\\usercacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\issue\\reportissueconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\issue\\reportissueconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\workshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\workshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\models\\workshopidea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\models\\workshopidea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\wwwroot\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\wwwroot\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|c:\\users\\lab_services_student\\source\\repos\\prog7312-part-2-st10385543\\poeprog7312part1\\poeprog7312part1\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5513D3C-5D09-463E-9756-C4421314138B}|POEPROG7312Part1\\POEPROG7312Part1.csproj|solutionrelative:poeprog7312part1\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnnouncementController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\AnnouncementController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\AnnouncementController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\AnnouncementController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\AnnouncementController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:15:20.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\ServiceRequestController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\ServiceRequestController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\ServiceRequestController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\ServiceRequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:19:40.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkshopController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\WorkshopController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\WorkshopController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\WorkshopController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\WorkshopController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwG0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T07:57:17.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BinarySearchTree.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\BinarySearchTree.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\BinarySearchTree.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\BinarySearchTree.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\BinarySearchTree.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFgAAAD1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:58:26.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BSTNode.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\BSTNode.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\BSTNode.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\BSTNode.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\BSTNode.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:56:32.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategorySet.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\CategorySet.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\CategorySet.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\CategorySet.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\CategorySet.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCMAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:08:43.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\Graph.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\Graph.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\Graph.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\Graph.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwEcAAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:59:42.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IssueController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\IssueController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\IssueController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\IssueController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\IssueController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAUwJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:21:31.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:17:38.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\EventController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\EventController.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAcwCcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:09:26.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAcwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:10:14.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\Node.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\Node.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\Node.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T18:59:19.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventPriorityQueue.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\EventPriorityQueue.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\EventPriorityQueue.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\EventPriorityQueue.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\EventPriorityQueue.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:40:33.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\EventDictionary.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\EventDictionary.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\EventDictionary.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\EventDictionary.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:07:03.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\CustomDictionary.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\CustomDictionary.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\CustomDictionary.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\CustomDictionary.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAUwKMAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:02:25.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAD0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T19:24:45.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\EventViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\EventViewModel.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\EventViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA4wAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:17:23.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SearchStack.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\SearchStack.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Datastructures\\SearchStack.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Datastructures\\SearchStack.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Datastructures\\SearchStack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:08:04.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\ServiceRequest.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\ServiceRequest.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\ServiceRequest.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\ServiceRequest.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:28:29.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\ServiceRequest\\Index.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\ServiceRequest\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\ServiceRequest\\Index.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\ServiceRequest\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T14:02:07.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\Issue.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\Issue.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\Issue.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\Issue.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:04:46.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\Event.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\Event.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T09:07:45.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\ServiceRequestService.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Services\\ServiceRequestService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\ServiceRequestService.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Services\\ServiceRequestService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:30:08.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AllIssues.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Issue\\AllIssues.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Issue\\AllIssues.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Issue\\AllIssues.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Issue\\AllIssues.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T19:49:39.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReportIssue.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Issue\\ReportIssue.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Issue\\ReportIssue.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Issue\\ReportIssue.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Issue\\ReportIssue.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAcwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T19:23:47.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Announcements\\Create.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Announcements\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Announcements\\Create.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Announcements\\Create.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T08:28:33.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\User.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA/wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:04:08.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Announcements\\Index.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Announcements\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Announcements\\Index.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Announcements\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T08:23:30.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Announcements\\Details.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Announcements\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Announcements\\Details.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Announcements\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T08:45:40.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Events\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\Dashboard.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Events\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:45:37.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T15:15:27.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GraphView.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\ServiceRequest\\GraphView.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\ServiceRequest\\GraphView.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\ServiceRequest\\GraphView.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\ServiceRequest\\GraphView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T14:02:36.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\ServiceRequest\\Details.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\ServiceRequest\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\ServiceRequest\\Details.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\ServiceRequest\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T14:05:54.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\EventService.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Services\\EventService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv2MAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:04:14.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\Announcement.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\Announcement.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\Announcement.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:18:40.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T08:49:45.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EventDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\EventDetails.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Events\\EventDetails.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\EventDetails.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Events\\EventDetails.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T11:21:57.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AnnouncementService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\AnnouncementService.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Services\\AnnouncementService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\AnnouncementService.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Services\\AnnouncementService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:20:23.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T19:18:48.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Events\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Events\\Index.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Events\\Index.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAcwHIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T15:14:23.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserSearchHistory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\UserSearchHistory.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\UserSearchHistory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\UserSearchHistory.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\UserSearchHistory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T08:47:45.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Services\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\MongoDbContext.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Services\\MongoDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:06:37.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IssueService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\IssueService.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Services\\IssueService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\IssueService.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Services\\IssueService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T21:05:08.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\appsettings.json",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\appsettings.json",
+              "RelativeToolTip": "POEPROG7312Part1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T18:45:45.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Program.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Program.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T19:07:31.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "POEPROG7312Part1\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-14T20:20:03.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ReportIssueConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Issue\\ReportIssueConfirmation.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Issue\\ReportIssueConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Issue\\ReportIssueConfirmation.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Issue\\ReportIssueConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T15:36:28.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\UserCacheService.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Services\\UserCacheService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Services\\UserCacheService.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Services\\UserCacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:26:52.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Workshop\\Index.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Workshop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Workshop\\Index.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Workshop\\Index.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAkwE0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T07:58:56.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "WorkshopIdea.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\WorkshopIdea.cs",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Models\\WorkshopIdea.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Models\\WorkshopIdea.cs",
+              "RelativeToolTip": "POEPROG7312Part1\\Models\\WorkshopIdea.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T07:55:40.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "theme.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\wwwroot\\css\\theme.css",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\wwwroot\\css\\theme.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\wwwroot\\css\\theme.css",
+              "RelativeToolTip": "POEPROG7312Part1\\wwwroot\\css\\theme.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-10T16:02:41.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T19:15:11.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Forgotpassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\Forgotpassword.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Account\\Forgotpassword.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\Forgotpassword.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Account\\Forgotpassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T07:38:46.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T19:14:41.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "POEPROG7312Part1\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prog7312-part-2-ST10385543\\POEPROG7312Part1\\POEPROG7312Part1\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "POEPROG7312Part1\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T08:26:12.123Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

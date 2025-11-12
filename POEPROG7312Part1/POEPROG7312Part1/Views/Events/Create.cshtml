@@ -1,0 +1,55 @@
+﻿@model POEPROG7312Part1.Models.Event
+
+@{
+    ViewData["Title"] = "Create Event";
+}
+
+<h2>Create Event</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Date" class="form-label">Event Date</label>
+        <input asp-for="Date" type="date" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Location" class="form-label">Location</label>
+        <input asp-for="Location" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category" class="form-label">Category</label>
+        <input asp-for="Category" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="5" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Event Type</label>
+        <select asp-for="EventType" class="form-select" required>
+            <option value="">-- Select Type --</option>
+            <option value="LocalEvent">Local Event</option>
+            <option value="Announcement">Announcement</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Event Image</label>
+        <input type="file" name="imageFile" class="form-control" />
+    </div>
+
+    <button style="margin-bottom:50px" type="submit" class="btn btn-primary">Create Event</button>
+</form>

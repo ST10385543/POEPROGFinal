@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@model IEnumerable<POEPROG7312Part1.Models.WorkshopIdea>
+
+<style>
+    /* Text outside blocks white */
+    body {
+        color: white;
+    }
+
+    .block {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: inherit; 
+    }
+
+    h2 {
+        color: white;
+    }
+</style>
+
+<h2 class="mb-4">Community Co-Design Workshop</h2>
+
+<div class="block">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <form asp-action="SubmitIdea" method="post" class="mb-3">
+        <textarea name="ideaText" class="form-control" placeholder="Share your idea..."></textarea>
+        <button type="submit" class="btn btn-success mt-2">Submit Idea</button>
+    </form>
+
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Idea</th>
+                <th>Votes</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var idea in Model)
+            {
+                <tr>
+                    <td>@idea.IdeaText</td>
+                    <td>
+                        <form asp-action="Vote" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@idea.Id" />
+                            <button name="value" value="1" class="btn btn-sm btn-primary">👍</button>
+                            <button name="value" value="-1" class="btn btn-sm btn-danger">👎</button>
+                            <span class="ms-2">@idea.Votes</span>
+                        </form>
+                    </td>
+                    <td>
+                        @idea.Status
+                    </td>
+                    <td>
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("Role") == "Admin")
+                        {
+                            <form asp-action="UpdateStatus" method="post" class="d-flex">
+                                <input type="hidden" name="id" value="@idea.Id" />
+                                <select name="status" class="form-select form-select-sm me-2">
+                                    <option value="Pending" selected="@(idea.Status == "Pending")">Pending</option>
+                                    <option value="Accepted" selected="@(idea.Status == "Accepted")">Accepted</option>
+                                    <option value="Rejected" selected="@(idea.Status == "Rejected")">Rejected</option>
+                                </select>
+                                <button type="submit" class="btn btn-sm btn-warning">Update</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

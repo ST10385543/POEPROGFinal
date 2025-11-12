@@ -1,0 +1,90 @@
+﻿@model POEPROG7312Part1.Datastructures.Graph
+
+@{
+    ViewData["Title"] = "Service Request Graph";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var categoryCounts = new Dictionary<string, int>();
+    var requests = ViewBag.Requests as List<POEPROG7312Part1.Models.ServiceRequest>;
+
+    foreach (var node in Model.AdjacencyList)
+    {
+        foreach (var connectedId in node.Value.Distinct())
+        {
+            var request = requests.FirstOrDefault(r => r.RequestID.ToString() == connectedId);
+            if (request != null)
+            {
+                var category = request.Category ?? "Uncategorized";
+                if (!categoryCounts.ContainsKey(category))
+                    categoryCounts[category] = 1;
+                else
+                    categoryCounts[category]++;
+            }
+        }
+    }
+
+    var labels = categoryCounts.Keys.ToArray();
+    var data = categoryCounts.Values.ToArray();
+}
+
+<div class="main-content">
+    <h2 class="section-title mb-4">🔗 Service Request Relationships (Graph)</h2>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <canvas id="pieChart"></canvas>
+        </div>
+        <div class="col-md-6">
+            <table class="table table-bordered bg-white">
+                <thead class="table-light">
+                    <tr>
+                        <th>Request ID</th>
+                        <th>Connected Requests (Same Category)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var node in Model.AdjacencyList)
+                    {
+                        <tr>
+                            <td>@node.Key</td>
+                            <td>@string.Join(", ", node.Value.Distinct())</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('pieChart').getContext('2d');
+        const pieChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(labels)),
+                datasets: [{
+                    data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(data)),
+                    backgroundColor: [
+                        '#1b6ec2', '#28a745', '#ffc107', '#dc3545', '#6f42c1', '#fd7e14', '#20c997'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    title: {
+                        display: true,
+                        text: 'Service Requests by Category'
+                    }
+                }
+            }
+        });
+    </script>
+}

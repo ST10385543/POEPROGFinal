@@ -1,0 +1,53 @@
+﻿@model POEPROG7312Part1.ViewModels.EventViewModel
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+<h2 class="mb-4">@Model.SelectedEvent.Title</h2>
+
+<div class="card shadow-sm mb-4">
+    @if (!string.IsNullOrEmpty(Model.SelectedEvent.ImageUrl))
+    {
+        <img class="card-img-top" src="@Model.SelectedEvent.ImageUrl" alt="@Model.SelectedEvent.Title" style="height:300px; object-fit:cover;" />
+    }
+    <div class="card-body">
+        <p><strong>Category:</strong> @Model.SelectedEvent.Category</p>
+        <p><strong>Location:</strong> @Model.SelectedEvent.Location</p>
+        <p><strong>Date:</strong> @Model.SelectedEvent.Date.ToString("dd MMM yyyy")</p>
+        <p><strong>Description:</strong> @Model.SelectedEvent.Description</p>
+        <a class="btn btn-secondary mt-3" href="@Model.ReturnUrl">Back</a>
+    </div>
+</div>
+
+@if (Model.RecommendedEvents != null && Model.RecommendedEvents.Any())
+{
+    <h4 class="mb-3">Recommended Events for You</h4>
+    <div class="row">
+        @foreach (var evt in Model.RecommendedEvents)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    @if (!string.IsNullOrEmpty(evt.ImageUrl))
+                    {
+                        <img class="card-img-top" src="@evt.ImageUrl" alt="@evt.Title" style="height:150px; object-fit:cover;" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@evt.Title</h5>
+                        <p class="card-text"><strong>Category:</strong> @evt.Category</p>
+                        <p class="card-text"><strong>Date:</strong> @evt.Date.ToString("dd MMM yyyy")</p>
+                        <a class="btn btn-primary"
+                           asp-action="ViewEvent"
+                           asp-route-eventId="@evt.Id"
+                           asp-route-returnUrl="@Model.ReturnUrl">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No recommended events yet.</p>
+}

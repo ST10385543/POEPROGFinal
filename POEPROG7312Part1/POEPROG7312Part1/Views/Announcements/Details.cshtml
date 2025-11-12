@@ -1,0 +1,34 @@
+﻿@model POEPROG7312Part1.Models.Event
+
+@{
+    ViewData["Title"] = "Announcement Details";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">@Model.Title</h2>
+
+    <p><strong>Date:</strong> @Model.Date.ToShortDateString()</p>
+
+    @if (!string.IsNullOrEmpty(Model.ImagePath))
+    {
+        <div class="mb-3">
+            <img src="@Model.ImagePath" alt="Announcement image" class="img-fluid rounded" style="max-height:400px;" />
+        </div>
+    }
+
+    <p class="lead">@Model.Description</p>
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary">Back to Announcements</a>
+
+        @if (Context.Session.GetString("Role") == "Admin")
+        {
+            <form asp-action="Delete" method="post" asp-route-id="@Model.Id" class="d-inline">
+                <button type="submit" class="btn btn-danger"
+                        onclick="return confirm('Are you sure you want to delete this announcement?')">
+                    Delete
+                </button>
+            </form>
+        }
+    </div>
+</div>

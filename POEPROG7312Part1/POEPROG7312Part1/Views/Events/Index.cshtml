@@ -1,0 +1,120 @@
+﻿@model POEPROG7312Part1.ViewModels.EventViewModel
+@{
+    ViewData["Title"] = "Local Events & Announcements";
+}
+
+<h2 class="mb-4">Local Events & Announcements</h2>
+
+<form method="get" asp-action="Index" class="row g-3 mb-4">
+    <div class="col-md-4">
+        <label for="searchCategory" class="form-label">Category</label>
+        <select id="searchCategory" name="searchCategory" class="form-select">
+            <option value="">All Categories</option>
+            @foreach (var cat in Model.Categories)
+            {
+                <option value="@cat">@cat</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <label for="searchDate" class="form-label">Date</label>
+        <select id="searchDate" name="searchDate" class="form-select">
+            <option value="">All Dates</option>
+            @foreach (var d in Model.EventDates.OrderBy(d => d))
+            {
+                <option value="@(d.ToString("yyyy-MM-dd"))">@(d.ToString("yyyy-MM-dd"))</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <label for="keyword" class="form-label">Keyword</label>
+        <input type="text" id="keyword" name="keyword" class="form-control" placeholder="Enter keyword..." />
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary w-100">Search</button>
+    </div>
+</form>
+
+<div class="shadow-sm rounded border p-3 bg-white" style="max-height: 65vh; overflow-y: auto;">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover align-middle mb-0">
+            <thead class="table-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Location</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Image</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var evt in Model.Events)
+                {
+                    <tr>
+                        <td>@evt.Title</td>
+                        <td>@evt.Category</td>
+                        <td>@evt.Location</td>
+                        <td>@evt.Description</td>
+                        <td>@evt.Date.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(evt.ImagePath))
+                            {
+                                <a class="btn btn-sm btn-outline-primary"
+                                   asp-action="GetImage"
+                                   asp-route-fileId="@evt.ImagePath">
+                                    Download
+                                </a>
+                            }
+                            else
+                            {
+                                <span class="text-muted">No Image</span>
+                            }
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-success"
+                               asp-action="ViewEvent"
+                               asp-route-eventId="@evt.Id"
+                               asp-route-returnUrl="@Url.Action("Index", "Events")">
+                                View Event
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@if (Model.RecommendedEvents != null && Model.RecommendedEvents.Any())
+{
+    <h4 class="mt-4">You Might Also Like</h4>
+    <div class="row">
+        @foreach (var evt in Model.RecommendedEvents)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@evt.Title</h5>
+                        <p class="card-text"><strong>Category:</strong> @evt.Category</p>
+                        <p class="card-text"><strong>Date:</strong> @evt.Date.ToString("yyyy-MM-dd")</p>
+                        @if (!string.IsNullOrEmpty(evt.Location))
+                        {
+                            <p class="card-text"><strong>Location:</strong> @evt.Location</p>
+                        }
+                        <a class="btn btn-primary"
+                           asp-action="ViewEvent"
+                           asp-route-eventId="@evt.Id"
+                           asp-route-returnUrl="@Url.Action("Index", "Events")">
+                            View Event
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
