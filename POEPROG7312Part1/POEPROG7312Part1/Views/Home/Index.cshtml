@@ -33,14 +33,15 @@
             </a>
         </div>
 
+
         <!-- Service Request Status -->
         <div class="col-md-4">
-            <div class="card text-center h-100 shadow-sm">
+            <div class="card text-center h-100 shadow-sm hover-shadow">
                 <div class="card-body">
                     <i class="bi bi-info-circle display-4 text-secondary mb-3"></i>
                     <h5 class="card-title">Service Request Status</h5>
                     <p class="card-text">Check the status of your submitted service requests.</p>
-                    <button class="btn btn-secondary" disabled>Coming Soon</button>
+                    <a asp-controller="ServiceRequest" asp-action="Index" class="btn btn-secondary">View Status</a>
                 </div>
             </div>
         </div>
